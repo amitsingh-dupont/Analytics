@@ -1,0 +1,6 @@
+Flask==1.1.2
+scikit-learn==0.24.1
+pandas
+flask_cors==3.0.10
+numpy
+statsmodels==0.12.2
