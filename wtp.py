@@ -16,7 +16,7 @@ from statsmodels.tsa.arima_model import ARIMA
 # initialize flask application
 app = Flask(__name__)
 
-####Uncomment if calling from Angular Platform
+###Uncomment if calling from Angular Platform
 #cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 ############################Total Water Prediction ###############################
