@@ -21,7 +21,7 @@ CORS(app)
 #cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 ############################Total Water Prediction ###############################
-@app.route('/', methods=['GET'])
+@app.route('/ccro/msg', methods=['GET'])
 def getMessage():
     data = {'message': 'Hello World!'}
     return jsonify(data)
