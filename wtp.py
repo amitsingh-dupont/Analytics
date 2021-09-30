@@ -64,7 +64,7 @@ def wtp():
     
     # Inverse differencing
     inv_y = np.array(inverse_difference(differenced, yorg_minus_1))
-    response = json.dumps(inv_y.tolist())
+    response = json.dumps(inv_y.tolist()[-1])
     return(response)
 
 if __name__ == '__main__':
